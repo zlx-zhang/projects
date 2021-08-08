@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- 在iOS下开启全屏模式  -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- 隐藏 Sarafi 状态栏  -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta content="yes" name="apple-touch-fullscreen" />
+  <meta content="telephone=no,email=no" name="format-detection" />
+  <!--下面两个js要放在样式的最前面 -->
+  <script src="plugin/commonjs/flexible_css.js"></script>
+  <script src="plugin/commonjs/flexible.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <div class="info">
+        <div class="content flexcolumn unitedCard1">
+          <!-- 主kv -->
+          <div class="kv">
+            <div class="rule" onclick="rule">活动规则</div>
+            <div class="gift" onclick="myAward">我的奖品</div>
+          </div>
+          <!-- 一键关注店铺 -->
+          <div class="normalBox flexCenter focusBox">
+            <div class="normalInfo flexcolumn">
+              <img class="title" src="http://img14.360buyimg.com/cms/jfs/t1/172815/21/5679/8357/607f8065Ec8375086/3b0612efb9b7bf59.png" >
+              <div class="con">
+                <div class="info">
+                  <div class="item flexCenter">
+                    <img src="" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="botTxt" style="font-size: 0.285rem;">
+                一键关注以上店铺，有机会获得
+                <span class="txtStyle" style="font-size: 0.3rem;">5京豆</span>
+                并获得
+                <span class="txtStyle" style="font-size: 0.3rem;">10助力值</span>
+              </div>
+              <div class="botBtn" onclick="onFollowShop"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./plugin/jquery.min.js" type="text/javascript"></script>
+  <script src="./plugin/jssdk.min.js" type="text/javascript"></script>
+  <script src="./plugin/aes.js" type="text/javascript"></script>
+  <script src="./plugin/my-aes-crypto.js" type="text/javascript"></script>
+  <script src="./js/frontLogin.js" type="text/javascript"></script>
+  <script src="./js/modal.js" type="text/javascript"></script>
+</body>
+
+</html>
